@@ -30,6 +30,9 @@ function App() {
     <Web3Provider connectors={Connectors} libraryName="ethers.js">
       <div className="App" 
       style={{
+        borderRadius: '25px',
+        padding:'30px',
+        backgroundColor:'#FFFFFF',
         position: 'absolute', left: '50%', top: '50%',
         transform: 'translate(-50%, -50%)'
       }}>
