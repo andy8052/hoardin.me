@@ -72,7 +72,7 @@ function TippingPage() {
           disabled={context.connectorName === connectorName}
           onClick={() => context.setConnector(connectorName)}
         >
-          Activate {connectorName}
+          Enter the Dragon's Lair
         </button>
       ))}
 
