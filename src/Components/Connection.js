@@ -10,9 +10,8 @@ const MetaMask = new InjectedConnector({ supportedNetworks: [1, 4] })
 
 const Fortmatic = new FortmaticConnector({
   api: FortmaticApi,
-  apiKey: "pk_test_13A1FD4E48D9438E",
+  apiKey: "pk_live_6B1D8DB636069522",
   logoutOnDeactivation: false,
-  testNetwork: 'rinkeby'
 });
 
 export default {
