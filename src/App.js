@@ -28,7 +28,11 @@ function App() {
 
   return (
     <Web3Provider connectors={Connectors} libraryName="ethers.js">
-      <div className="App">
+      <div className="App" 
+      style={{
+        position: 'absolute', left: '50%', top: '50%',
+        transform: 'translate(-50%, -50%)'
+      }}>
         {hasAddress ?
         <TippingPage /> :
         <UserLogin />
@@ -64,7 +68,7 @@ function TippingPage() {
 
   return (
     <React.Fragment>
-      <h1>Tipping Page</h1>
+      <h1>🐲 Share Some Loot 🐲</h1>
 
       {context.error && (
         <p>An error occurred, check the console for details.</p>
