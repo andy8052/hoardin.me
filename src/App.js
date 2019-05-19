@@ -110,7 +110,7 @@ function UserLogin() {
     console.error("Error!");
   }
 
-  const wyreWidget = "https://verify.testwyre.com/widget/v1?env=test&operation=debitcard&accountId=AC_1234&authType=secretKey&destCurrency=ETH&sourceCurrency=USD&sourceAmount=0.01&dest=ethereum:" + context.account + "&redirectUrl=https://sendwyre.com"
+  const wyreWidget = "https://verify.testwyre.com/widget/v1?env=test&operation=debitcard&accountId=AC_1234&authType=secretKey&destCurrency=ETH&sourceCurrency=USD&sourceAmount=0.01&dest=ethereum:" + context.account + "&redirectUrl=https://hoardin-me.netlify.com/"
   console.log(wyreWidget)
   return (
     <React.Fragment>
